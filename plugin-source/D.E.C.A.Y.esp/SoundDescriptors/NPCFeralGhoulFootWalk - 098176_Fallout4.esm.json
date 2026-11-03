@@ -1,0 +1,21 @@
+{
+  "FormKey": "098176:Fallout4.esm",
+  "EditorID": "NPCFeralGhoulFootWalk",
+  "Version2": 6,
+  "Data": {
+    "MutagenObjectType": "SoundDescriptorStandardData",
+    "PercentFrequencyVariance": 4,
+    "Priority": 128,
+    "Variance": 6,
+    "StaticAttenuation": 1.5
+  },
+  "Category": "0172A1:Fallout4.esm",
+  "SoundFiles": [
+    "data\\Sound\\FX\\NPC\\FeralGhoul\\NPC_FeralGhoul_Foot_Walk_01.wav",
+    "data\\Sound\\FX\\NPC\\FeralGhoul\\NPC_FeralGhoul_Foot_Walk_02.wav",
+    "data\\Sound\\FX\\NPC\\FeralGhoul\\NPC_FeralGhoul_Foot_Walk_03.wav",
+    "data\\Sound\\FX\\NPC\\FeralGhoul\\NPC_FeralGhoul_Foot_Walk_04.wav"
+  ],
+  "OutputModel": "05A28A:Fallout4.esm",
+  "LoopAndRumble": {}
+}

@@ -1,0 +1,38 @@
+{
+  "FormKey": "0D3996:Fallout4.esm",
+  "EditorID": "NPCFeralGhoulIdleAnim",
+  "Version2": 4,
+  "Data": {
+    "MutagenObjectType": "SoundDescriptorStandardData",
+    "PercentFrequencyVariance": 3,
+    "Priority": 192,
+    "Variance": 2,
+    "StaticAttenuation": 3.5
+  },
+  "Category": "09F254:Fallout4.esm",
+  "SoundFiles": [
+    "data\\Sound\\FX\\NPC\\FeralGhoul\\NPC_FeralGhoul_IdleAnim_02.wav",
+    "data\\Sound\\FX\\NPC\\FeralGhoul\\NPC_FeralGhoul_IdleAnim_03.wav",
+    "data\\Sound\\FX\\NPC\\FeralGhoul\\NPC_FeralGhoul_IdleAnim_01.wav",
+    "data\\Sound\\FX\\NPC\\FeralGhoul\\NPC_FeralGhoul_IdleAnim_08.wav",
+    "data\\Sound\\FX\\NPC\\FeralGhoul\\NPC_FeralGhoul_IdleAnim_09.wav",
+    "data\\Sound\\FX\\NPC\\FeralGhoul\\NPC_FeralGhoul_IdleAnim_04.wav",
+    "data\\Sound\\FX\\NPC\\FeralGhoul\\NPC_FeralGhoul_IdleAnim_05.wav",
+    "data\\Sound\\FX\\NPC\\FeralGhoul\\NPC_FeralGhoul_IdleAnim_06.wav",
+    "data\\Sound\\FX\\NPC\\FeralGhoul\\NPC_FeralGhoul_IdleAnim_07.wav"
+  ],
+  "OutputModel": "05A28A:Fallout4.esm",
+  "Conditions": [
+    {
+      "MutagenObjectType": "ConditionFloat",
+      "CompareOperator": "GreaterThanOrEqualTo",
+      "Unknown1": "0x000000",
+      "ComparisonValue": 75.0,
+      "Data": {
+        "MutagenObjectType": "FunctionConditionData",
+        "Function": "GetRandomPercent"
+      }
+    }
+  ],
+  "LoopAndRumble": {}
+}

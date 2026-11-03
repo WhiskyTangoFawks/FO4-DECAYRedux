@@ -1,0 +1,39 @@
+{
+  "FormKey": "001EFE:D.E.C.A.Y.esp",
+  "EditorID": "LvLFeralGhoulHunterHeads",
+  "MaxCount": 0,
+  "Flags": [
+    "CalculateFromAllLevelsLessThanOrEqualPlayer",
+    "CalculateForEachItemInCount"
+  ],
+  "Entries": [
+    {
+      "Data": {
+        "Level": 1,
+        "Reference": "001EFD:D.E.C.A.Y.esp",
+        "Count": 1
+      }
+    },
+    {
+      "Data": {
+        "Level": 1,
+        "Reference": "001EFC:D.E.C.A.Y.esp",
+        "Count": 1
+      }
+    },
+    {
+      "Data": {
+        "Level": 1,
+        "Reference": "001EFB:D.E.C.A.Y.esp",
+        "Count": 1
+      }
+    },
+    {
+      "Data": {
+        "Level": 1,
+        "Reference": "001EFA:D.E.C.A.Y.esp",
+        "Count": 1
+      }
+    }
+  ]
+}

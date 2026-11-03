@@ -1,0 +1,14 @@
+{
+  "FormKey": "000FA8:D.E.C.A.Y.esp",
+  "EditorID": "LvLBodyFeralGhoulNew",
+  "MaxCount": 0,
+  "Entries": [
+    {
+      "Data": {
+        "Level": 1,
+        "Reference": "000F9B:D.E.C.A.Y.esp",
+        "Count": 1
+      }
+    }
+  ]
+}

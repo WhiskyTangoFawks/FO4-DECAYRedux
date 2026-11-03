@@ -1,0 +1,33 @@
+{
+  "FormKey": "000FA6:D.E.C.A.Y.esp",
+  "EditorID": "FeralGhoulHeadNew01d",
+  "BodyTemplate": {
+    "FirstPersonFlags": [
+      "FaceGenHead"
+    ]
+  },
+  "Race": "06B4EC:Fallout4.esm",
+  "Priority": {
+    "Male": 5,
+    "Female": 5
+  },
+  "WeightSliderEnabled": {
+    "Male": false,
+    "Female": false
+  },
+  "Unknown": 2,
+  "Unknown2": 23,
+  "WorldModel": {
+    "Male": {
+      "File": "Actors\\FeralGhoul\\CharacterAssets\\FeralGhoulHead4.nif",
+      "Data": "0x0400000000000000000000000000000000000000",
+      "MaterialSwap": "000F99:D.E.C.A.Y.esp"
+    },
+    "Female": {
+      "File": "Actors\\FeralGhoul\\CharacterAssets\\FeralGhoulHead4.nif",
+      "Data": "0x0400000000000000000000000000000000000000"
+    }
+  },
+  "FootstepSound": "03E091:Fallout4.esm",
+  "BoneData": {}
+}

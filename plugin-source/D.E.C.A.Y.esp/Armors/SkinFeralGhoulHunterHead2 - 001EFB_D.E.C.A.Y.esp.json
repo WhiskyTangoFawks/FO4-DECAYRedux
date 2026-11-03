@@ -1,0 +1,28 @@
+{
+  "FormKey": "001EFB:D.E.C.A.Y.esp",
+  "MajorRecordFlagsRaw": 4,
+  "EditorID": "SkinFeralGhoulHunterHead2",
+  "Fallout4MajorRecordFlags": [
+    "NotPlayable"
+  ],
+  "BipedBodyTemplate": {
+    "FirstPersonFlags": [
+      "FaceGenHead"
+    ]
+  },
+  "Race": "06B4EC:Fallout4.esm",
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "Armatures": [
+    {
+      "AddonIndex": 0,
+      "ArmorAddon": "001EF6:D.E.C.A.Y.esp"
+    }
+  ],
+  "Unused": "0x000000",
+  "MajorFlags": [
+    "NonPlayable"
+  ]
+}

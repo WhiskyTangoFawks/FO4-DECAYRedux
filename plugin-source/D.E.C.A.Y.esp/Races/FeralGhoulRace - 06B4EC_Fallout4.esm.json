@@ -1,0 +1,1198 @@
+{
+  "FormKey": "06B4EC:Fallout4.esm",
+  "EditorID": "FeralGhoulRace",
+  "Version2": 5,
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Feral Ghoul"
+  },
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "ActorEffect": [
+    "1CCDA3:Fallout4.esm"
+  ],
+  "Skin": "06B4EE:Fallout4.esm",
+  "BipedBodyTemplate": {},
+  "Keywords": [
+    "013795:Fallout4.esm",
+    "06B4F2:Fallout4.esm",
+    "23954F:Fallout4.esm"
+  ],
+  "Properties": [
+    {
+      "ActorValue": "0002E0:Fallout4.esm",
+      "Value": 1.0
+    },
+    {
+      "ActorValue": "0002D4:Fallout4.esm"
+    },
+    {
+      "ActorValue": "0002D5:Fallout4.esm",
+      "Value": 100.0
+    },
+    {
+      "ActorValue": "0002E4:Fallout4.esm",
+      "Value": 150.0
+    },
+    {
+      "ActorValue": "0002EA:Fallout4.esm",
+      "Value": 1000.0
+    },
+    {
+      "ActorValue": "0002D8:Fallout4.esm",
+      "Value": 3.0
+    },
+    {
+      "ActorValue": "0002C6:Fallout4.esm"
+    }
+  ],
+  "Height": {
+    "Male": 1.0,
+    "Female": 1.03
+  },
+  "DefaultWeight": {
+    "Male": {
+      "Thin": 0.5,
+      "Muscular": 0.5
+    },
+    "Female": {
+      "Thin": 0.5,
+      "Muscular": 0.5
+    }
+  },
+  "Flags": [
+    "Playable",
+    "Walks",
+    "NoCombatInWater",
+    "UsesHeadTrackAnims",
+    "AllowPickpocket",
+    "CanPickupItems",
+    "CanDualWield",
+    "HeadAxisBit0",
+    "Ungendered",
+    "0x400000000000",
+    "CannotUsePlayableItems"
+  ],
+  "AccelerationRate": 1.0,
+  "DecelerationRate": 1.0,
+  "Size": "Medium",
+  "Unknown": "0xFFFFFFFFFFFFFFFF",
+  "FlightRadius": 1.0,
+  "AngularAccelerationRate": 0.1,
+  "AngularTolerance": 1.0,
+  "Unknown2": "0x0000803E0000A04021010000000000000000000000000000000000000000000000000000",
+  "PipboyBipedObject": "HairTop",
+  "ExplodableDebrisCount": 20,
+  "SeverableImpactDataSet": "0F457B:Fallout4.esm",
+  "OrientationLimitsPitch": 90.0,
+  "OrientationLimitsRoll": 90.0,
+  "SkeletalModel": {
+    "Male": {
+      "MutagenObjectType": "SimpleModel",
+      "File": "Actors\\FeralGhoul\\CharacterAssets\\skeleton.nif",
+      "Data": "0x0400000000000000000000000000000000000000"
+    },
+    "Female": {
+      "MutagenObjectType": "SimpleModel",
+      "File": "Actors\\FeralGhoul\\CharacterAssets\\skeleton.nif",
+      "Data": "0x0400000000000000000000000000000000000000"
+    }
+  },
+  "MovementTypeNames": [
+    "BLDO",
+    "RUN1",
+    "SNEK",
+    "SWIM",
+    "WALK"
+  ],
+  "Voices": {
+    "Male": "09B20A:Fallout4.esm",
+    "Female": "03614E:Fallout4.esm"
+  },
+  "NumberOfTintsInList": 1148,
+  "FacegenMainClamp": 5.0,
+  "FacegenFaceClamp": 3.0,
+  "Attacks": [
+    {
+      "AttackData": {
+        "DamageMult": 1.0,
+        "Chance": 1.0,
+        "StrikeAngle": 35.0,
+        "ActionPointsMult": 1.0
+      },
+      "AttackEvent": "meleeStartCharge_1"
+    },
+    {
+      "AttackData": {
+        "DamageMult": 1.0,
+        "Chance": 1.0,
+        "StrikeAngle": 70.0,
+        "ActionPointsMult": 1.0
+      },
+      "AttackEvent": "meleeStart_1",
+      "RequiredSlot": "013F42:Fallout4.esm"
+    },
+    {
+      "AttackData": {
+        "DamageMult": 1.0,
+        "Chance": 1.0,
+        "Flags": [
+          "PowerAttack",
+          "RotatingAttack"
+        ],
+        "StrikeAngle": 70.0,
+        "ActionPointsMult": 1.0,
+        "StaggerOffset": 1
+      },
+      "AttackEvent": "meleeStart_10",
+      "RequiredSlot": "049BE6:Fallout4.esm"
+    },
+    {
+      "AttackData": {
+        "DamageMult": 1.0,
+        "StrikeAngle": 35.0,
+        "ActionPointsMult": 1.0
+      },
+      "AttackEvent": "meleeStart_10_Mirrored"
+    },
+    {
+      "AttackData": {
+        "DamageMult": 1.0,
+        "StrikeAngle": 35.0,
+        "ActionPointsMult": 1.0
+      },
+      "AttackEvent": "meleeStart_1_Mirrored"
+    },
+    {
+      "AttackData": {
+        "DamageMult": 1.0,
+        "Chance": 1.0,
+        "StrikeAngle": 70.0,
+        "ActionPointsMult": 1.0
+      },
+      "AttackEvent": "meleeStart_2",
+      "RequiredSlot": "013F43:Fallout4.esm"
+    },
+    {
+      "AttackData": {
+        "DamageMult": 1.0,
+        "StrikeAngle": 35.0,
+        "ActionPointsMult": 1.0
+      },
+      "AttackEvent": "meleeStart_2_Mirrored"
+    },
+    {
+      "AttackData": {
+        "DamageMult": 1.0,
+        "Chance": 1.0,
+        "StrikeAngle": 70.0,
+        "ActionPointsMult": 1.0
+      },
+      "AttackEvent": "meleeStart_3",
+      "RequiredSlot": "013F45:Fallout4.esm"
+    },
+    {
+      "AttackData": {
+        "DamageMult": 1.0,
+        "StrikeAngle": 35.0,
+        "ActionPointsMult": 1.0
+      },
+      "AttackEvent": "meleeStart_3_Mirrored"
+    },
+    {
+      "AttackData": {
+        "DamageMult": 1.0,
+        "Chance": 1.0,
+        "Flags": [
+          "PowerAttack"
+        ],
+        "StrikeAngle": 70.0,
+        "ActionPointsMult": 1.0,
+        "StaggerOffset": 1
+      },
+      "AttackEvent": "meleeStart_4",
+      "RequiredSlot": "049BE6:Fallout4.esm"
+    },
+    {
+      "AttackData": {
+        "DamageMult": 1.0,
+        "Chance": 1.0,
+        "Flags": [
+          "PowerAttack"
+        ],
+        "StrikeAngle": 35.0,
+        "ActionPointsMult": 1.0,
+        "StaggerOffset": 1
+      },
+      "AttackEvent": "meleeStart_4_Mirrored",
+      "RequiredSlot": "0A2710:Fallout4.esm"
+    },
+    {
+      "AttackData": {
+        "DamageMult": 1.0,
+        "Chance": 1.0,
+        "Flags": [
+          "RotatingAttack"
+        ],
+        "AttackAngle": 90.0,
+        "StrikeAngle": 70.0,
+        "ActionPointsMult": 1.0
+      },
+      "AttackEvent": "meleeStart_5",
+      "RequiredSlot": "013F42:Fallout4.esm"
+    },
+    {
+      "AttackData": {
+        "DamageMult": 1.0,
+        "AttackAngle": -90.0,
+        "StrikeAngle": 45.0,
+        "ActionPointsMult": 1.0
+      },
+      "AttackEvent": "meleeStart_5_Mirrored"
+    },
+    {
+      "AttackData": {
+        "DamageMult": 1.0,
+        "Chance": 1.0,
+        "Flags": [
+          "RotatingAttack"
+        ],
+        "AttackAngle": -90.0,
+        "StrikeAngle": 70.0,
+        "ActionPointsMult": 1.0
+      },
+      "AttackEvent": "meleeStart_6",
+      "RequiredSlot": "013F43:Fallout4.esm"
+    },
+    {
+      "AttackData": {
+        "DamageMult": 1.0,
+        "StrikeAngle": 35.0,
+        "ActionPointsMult": 1.0
+      },
+      "AttackEvent": "meleeStart_6_Mirrored"
+    },
+    {
+      "AttackData": {
+        "DamageMult": 1.0,
+        "Chance": 1.0,
+        "Flags": [
+          "PowerAttack",
+          "RotatingAttack"
+        ],
+        "StrikeAngle": 70.0,
+        "ActionPointsMult": 1.0,
+        "StaggerOffset": 1
+      },
+      "AttackEvent": "meleeStart_7",
+      "RequiredSlot": "049BE6:Fallout4.esm"
+    },
+    {
+      "AttackData": {
+        "DamageMult": 1.0,
+        "Flags": [
+          "PowerAttack",
+          "RotatingAttack"
+        ],
+        "StrikeAngle": 35.0,
+        "ActionPointsMult": 1.0,
+        "StaggerOffset": 1
+      },
+      "AttackEvent": "meleeStart_7_Mirrored"
+    },
+    {
+      "AttackData": {
+        "DamageMult": 1.0,
+        "Chance": 0.1,
+        "StrikeAngle": 70.0,
+        "ActionPointsMult": 1.0
+      },
+      "AttackEvent": "meleeStart_8"
+    },
+    {
+      "AttackData": {
+        "DamageMult": 1.0,
+        "Chance": 0.1,
+        "StrikeAngle": 35.0,
+        "ActionPointsMult": 1.0
+      },
+      "AttackEvent": "meleeStart_8_Mirrored"
+    },
+    {
+      "AttackData": {
+        "DamageMult": 1.0,
+        "Chance": 1.0,
+        "Flags": [
+          "PowerAttack",
+          "RotatingAttack"
+        ],
+        "StrikeAngle": 70.0,
+        "ActionPointsMult": 1.0,
+        "StaggerOffset": 1
+      },
+      "AttackEvent": "meleeStart_9",
+      "RequiredSlot": "049BE6:Fallout4.esm"
+    },
+    {
+      "AttackData": {
+        "DamageMult": 1.0,
+        "StrikeAngle": 35.0,
+        "ActionPointsMult": 1.0
+      },
+      "AttackEvent": "meleeStart_9_Mirrored"
+    }
+  ],
+  "BodyData": {
+    "Male": {
+      "Index": "BodyTexture",
+      "Model": {
+        "File": "Actors\\Character\\UpperBodyHumanMale.egt",
+        "Data": "0x0400000000000000000000000000000000000000"
+      }
+    },
+    "Female": {
+      "Index": "BodyTexture",
+      "Model": {
+        "File": "Actors\\Character\\UpperBodyHumanFemale.egt",
+        "Data": "0x0400000000000000000000000000000000000000"
+      }
+    }
+  },
+  "BodyPartData": "06B4F1:Fallout4.esm",
+  "BehaviorGraph": {
+    "Male": {
+      "File": "Actors\\FeralGhoul\\FeralGhoulProject.hkx",
+      "Data": "0x0400000000000000000000000000000000000000"
+    },
+    "Female": {
+      "File": "Actors\\FeralGhoul\\FeralGhoulProject.hkx",
+      "Data": "0x0400000000000000000000000000000000000000"
+    }
+  },
+  "ImpactMaterialType": "022954:Fallout4.esm",
+  "MeatCapTextureSet": "0B30B2:Fallout4.esm",
+  "CollarTextureSet": "0B30B2:Fallout4.esm",
+  "SoundOpenCorpse": "0A5013:Fallout4.esm",
+  "SoundCloseCorpse": "0A5014:Fallout4.esm",
+  "BipedObjects": [
+    {
+      "Key": "HairTop",
+      "Value": {
+        "Name": "Hair Top"
+      }
+    },
+    {
+      "Key": "HairLong",
+      "Value": {
+        "Name": "Hair Long"
+      }
+    },
+    {
+      "Key": "FaceGenHead",
+      "Value": {
+        "Name": "FaceGen Head"
+      }
+    },
+    {
+      "Key": "Body",
+      "Value": {
+        "Name": "BODY"
+      }
+    },
+    {
+      "Key": "LeftHand",
+      "Value": {
+        "Name": "L Hand"
+      }
+    },
+    {
+      "Key": "RightHand",
+      "Value": {
+        "Name": "R Hand"
+      }
+    },
+    {
+      "Key": "TorsoUnderArmor",
+      "Value": {
+        "Name": "U Torso"
+      }
+    },
+    {
+      "Key": "LeftArmUnderArmor",
+      "Value": {
+        "Name": "U L Arm"
+      }
+    },
+    {
+      "Key": "RightArmUnderArmor",
+      "Value": {
+        "Name": "U R Arm"
+      }
+    },
+    {
+      "Key": "LeftLegUnderArmor",
+      "Value": {
+        "Name": "U L Leg"
+      }
+    },
+    {
+      "Key": "RightLegUnderArmor",
+      "Value": {
+        "Name": "U R Leg"
+      }
+    },
+    {
+      "Key": "TorsoArmor",
+      "Value": {
+        "Name": "A Torso"
+      }
+    },
+    {
+      "Key": "LeftArmArmor",
+      "Value": {
+        "Name": "A L Arm"
+      }
+    },
+    {
+      "Key": "RightArmArmor",
+      "Value": {
+        "Name": "A R Arm"
+      }
+    },
+    {
+      "Key": "LeftLegArmor",
+      "Value": {
+        "Name": "A L Leg"
+      }
+    },
+    {
+      "Key": "RightLegArmor",
+      "Value": {
+        "Name": "A R Leg"
+      }
+    },
+    {
+      "Key": "Headband",
+      "Value": {
+        "Name": "Headband"
+      }
+    },
+    {
+      "Key": "Eyes",
+      "Value": {
+        "Name": "Eyes"
+      }
+    },
+    {
+      "Key": "Beard",
+      "Value": {
+        "Name": "Beard"
+      }
+    },
+    {
+      "Key": "Mouth",
+      "Value": {
+        "Name": "Mouth"
+      }
+    },
+    {
+      "Key": "Neck",
+      "Value": {
+        "Name": "Neck"
+      }
+    },
+    {
+      "Key": "Ring",
+      "Value": {
+        "Name": "Ring"
+      }
+    },
+    {
+      "Key": "Scalp",
+      "Value": {
+        "Name": ""
+      }
+    },
+    {
+      "Key": "Decapitation",
+      "Value": {
+        "Name": ""
+      }
+    },
+    {
+      "Key": "Unnamed54",
+      "Value": {
+        "Name": ""
+      }
+    },
+    {
+      "Key": "Unnamed55",
+      "Value": {
+        "Name": ""
+      }
+    },
+    {
+      "Key": "Unnamed56",
+      "Value": {
+        "Name": ""
+      }
+    },
+    {
+      "Key": "Unnamed57",
+      "Value": {
+        "Name": ""
+      }
+    },
+    {
+      "Key": "Unnamed58",
+      "Value": {
+        "Name": ""
+      }
+    },
+    {
+      "Key": "Shield",
+      "Value": {
+        "Name": ""
+      }
+    },
+    {
+      "Key": "Pipboy",
+      "Value": {
+        "Name": ""
+      }
+    },
+    {
+      "Key": "FX",
+      "Value": {
+        "Name": "FX01"
+      }
+    }
+  ],
+  "EquipmentFlags": [
+    "Shield",
+    "Torch",
+    "0x8000",
+    "0x10000",
+    "0x20000",
+    "0x40000",
+    "0x80000",
+    "0x100000",
+    "0x200000",
+    "0x400000",
+    "0x800000",
+    "0x8000000",
+    "0x10000000",
+    "0x20000000",
+    "0x40000000",
+    "0x80000000",
+    "0x0"
+  ],
+  "EquipmentSlots": [
+    {
+      "Slot": "013F42:Fallout4.esm"
+    },
+    {
+      "Slot": "013F43:Fallout4.esm"
+    },
+    {
+      "Slot": "04334F:Fallout4.esm"
+    }
+  ],
+  "UnarmedWeapon": "0C2C2C:Fallout4.esm",
+  "FaceFxPhonemes": {
+    "ForceNames": true,
+    "Aah_LipBigAah": {
+      "Name": "Aah"
+    },
+    "BigAah_LipDST": {
+      "Name": "BigAah"
+    },
+    "BMP_LipEee": {
+      "Name": "BMP"
+    },
+    "ChJSh_LipFV": {
+      "Name": "ChJSh"
+    },
+    "DST_LipK": {
+      "Name": "DST"
+    },
+    "Eee_LipL": {
+      "Name": "Eee"
+    },
+    "Eh_LipR": {
+      "Name": "Eh"
+    },
+    "FV_LipTh": {
+      "Name": "FV"
+    },
+    "I": {
+      "Name": "I"
+    },
+    "K": {
+      "Name": "K"
+    },
+    "N": {
+      "Name": "N"
+    },
+    "Oh": {
+      "Name": "Oh"
+    },
+    "OohQ": {
+      "Name": "OohQ"
+    },
+    "R": {
+      "Name": "R"
+    },
+    "Th": {
+      "Name": "th"
+    },
+    "W": {
+      "Name": "W"
+    }
+  },
+  "BaseMovementDefault": "06FAD3:Fallout4.esm",
+  "Subgraphs": [
+    {
+      "BehaviorGraph": "Actors\\Shared\\Behaviors\\FeralGhoulSharedCoreWrappingBehavior.hkx",
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations"
+      ],
+      "Role": "Weapon"
+    },
+    {
+      "BehaviorGraph": "Actors\\Shared\\Behaviors\\FeralGhoulSharedCoreWrappingBehavior.hkx",
+      "ActorKeywords": [
+        "030B00:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations\\Injured\\Right",
+        "Actors\\FeralGhoul\\Animations"
+      ],
+      "Role": "Weapon"
+    },
+    {
+      "BehaviorGraph": "Actors\\Shared\\Behaviors\\FeralGhoulSharedCoreWrappingBehavior.hkx",
+      "ActorKeywords": [
+        "030B01:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations\\Injured\\Left",
+        "Actors\\FeralGhoul\\Animations"
+      ],
+      "Role": "Weapon"
+    },
+    {
+      "BehaviorGraph": "Actors\\Shared\\Behaviors\\FeralGhoulSharedCoreWrappingBehavior.hkx",
+      "ActorKeywords": [
+        "030B01:Fallout4.esm",
+        "030B00:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations\\Injured\\Ground",
+        "Actors\\FeralGhoul\\Animations"
+      ],
+      "Role": "Weapon"
+    },
+    {
+      "BehaviorGraph": "Actors\\Shared\\Behaviors\\FeralGhoulLeftArmInjuredWrappingBehavior.hkx",
+      "ActorKeywords": [
+        "0345AE:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations"
+      ],
+      "Role": "Weapon"
+    },
+    {
+      "BehaviorGraph": "Actors\\Shared\\Behaviors\\FeralGhoulRightArmInjuredWrappingBehavior.hkx",
+      "ActorKeywords": [
+        "0345AD:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations"
+      ],
+      "Role": "Weapon"
+    },
+    {
+      "BehaviorGraph": "Actors\\Shared\\Behaviors\\FeralGhoulBothArmsInjuredWrappingBehavior.hkx",
+      "ActorKeywords": [
+        "0345AE:Fallout4.esm",
+        "0345AD:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations"
+      ],
+      "Role": "Weapon"
+    },
+    {
+      "BehaviorGraph": "Actors\\Shared\\Behaviors\\FeralGhoulLeftArmInjuredWrappingBehavior.hkx",
+      "ActorKeywords": [
+        "0345AE:Fallout4.esm",
+        "030B00:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations\\Injured\\Right",
+        "Actors\\FeralGhoul\\Animations"
+      ],
+      "Role": "Weapon"
+    },
+    {
+      "BehaviorGraph": "Actors\\Shared\\Behaviors\\FeralGhoulRightArmInjuredWrappingBehavior.hkx",
+      "ActorKeywords": [
+        "0345AD:Fallout4.esm",
+        "030B00:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations\\Injured\\Right",
+        "Actors\\FeralGhoul\\Animations"
+      ],
+      "Role": "Weapon"
+    },
+    {
+      "BehaviorGraph": "Actors\\Shared\\Behaviors\\FeralGhoulLeftArmInjuredWrappingBehavior.hkx",
+      "ActorKeywords": [
+        "0345AE:Fallout4.esm",
+        "030B01:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations\\Injured\\Left",
+        "Actors\\FeralGhoul\\Animations"
+      ],
+      "Role": "Weapon"
+    },
+    {
+      "BehaviorGraph": "Actors\\Shared\\Behaviors\\FeralGhoulRightArmInjuredWrappingBehavior.hkx",
+      "ActorKeywords": [
+        "0345AD:Fallout4.esm",
+        "030B01:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations\\Injured\\Left",
+        "Actors\\FeralGhoul\\Animations"
+      ],
+      "Role": "Weapon"
+    },
+    {
+      "BehaviorGraph": "Actors\\Shared\\Behaviors\\FeralGhoulBothArmsInjuredWrappingBehavior.hkx",
+      "ActorKeywords": [
+        "0345AE:Fallout4.esm",
+        "0345AD:Fallout4.esm",
+        "030B00:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations\\Injured\\Right",
+        "Actors\\FeralGhoul\\Animations"
+      ],
+      "Role": "Weapon"
+    },
+    {
+      "BehaviorGraph": "Actors\\Shared\\Behaviors\\FeralGhoulBothArmsInjuredWrappingBehavior.hkx",
+      "ActorKeywords": [
+        "0345AE:Fallout4.esm",
+        "0345AD:Fallout4.esm",
+        "030B01:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations\\Injured\\Left",
+        "Actors\\FeralGhoul\\Animations"
+      ],
+      "Role": "Weapon"
+    },
+    {
+      "BehaviorGraph": "Actors\\Shared\\Behaviors\\FeralGhoulSharedCoreWrappingBehavior.hkx",
+      "ActorKeywords": [
+        "0345AE:Fallout4.esm",
+        "030B01:Fallout4.esm",
+        "030B00:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations\\Injured\\Ground",
+        "Actors\\FeralGhoul\\Animations"
+      ],
+      "Role": "Weapon"
+    },
+    {
+      "BehaviorGraph": "Actors\\Shared\\Behaviors\\FeralGhoulSharedCoreWrappingBehavior.hkx",
+      "ActorKeywords": [
+        "0345AD:Fallout4.esm",
+        "030B01:Fallout4.esm",
+        "030B00:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations\\Injured\\Ground",
+        "Actors\\FeralGhoul\\Animations"
+      ],
+      "Role": "Weapon"
+    },
+    {
+      "BehaviorGraph": "Actors\\Shared\\Behaviors\\FeralGhoulSharedCoreWrappingBehavior.hkx",
+      "ActorKeywords": [
+        "0345AE:Fallout4.esm",
+        "0345AD:Fallout4.esm",
+        "030B01:Fallout4.esm",
+        "030B00:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations\\Injured\\Ground",
+        "Actors\\FeralGhoul\\Animations"
+      ],
+      "Role": "Weapon"
+    },
+    {
+      "BehaviorGraph": "Actors\\Shared\\Behaviors\\AmbushBehavior.hkx",
+      "TargetKeywords": [
+        "09FE69:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations\\Ambush\\FromUnderAmbush"
+      ],
+      "Role": "Furniture"
+    },
+    {
+      "BehaviorGraph": "Actors\\Shared\\Behaviors\\AmbushBehavior.hkx",
+      "TargetKeywords": [
+        "09F970:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations\\Ambush\\GetUpAmbush\\D"
+      ],
+      "Role": "Furniture"
+    },
+    {
+      "BehaviorGraph": "Actors\\Shared\\Behaviors\\AmbushBehavior.hkx",
+      "TargetKeywords": [
+        "09F973:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations\\Ambush\\GetUpAmbush\\A"
+      ],
+      "Role": "Furniture"
+    },
+    {
+      "BehaviorGraph": "Actors\\Shared\\Behaviors\\AmbushBehavior.hkx",
+      "TargetKeywords": [
+        "09F971:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations\\Ambush\\GetUpAmbush\\B"
+      ],
+      "Role": "Furniture"
+    },
+    {
+      "BehaviorGraph": "Actors\\Shared\\Behaviors\\AmbushBehavior.hkx",
+      "TargetKeywords": [
+        "09F972:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations\\Ambush\\GetUpAmbush\\C"
+      ],
+      "Role": "Furniture"
+    },
+    {
+      "BehaviorGraph": "Actors\\Shared\\Behaviors\\AmbushBehavior.hkx",
+      "TargetKeywords": [
+        "083F2A:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations\\Ambush\\OverWallAmbush"
+      ],
+      "Role": "Furniture"
+    },
+    {
+      "BehaviorGraph": "Actors\\Shared\\Behaviors\\AmbushBehavior.hkx",
+      "TargetKeywords": [
+        "0A0F52:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations\\Ambush\\UnderTableAmbush"
+      ],
+      "Role": "Furniture"
+    },
+    {
+      "BehaviorGraph": "Actors\\Character\\Behaviors\\FurnitureNoMirrorBehavior.hkx",
+      "TargetKeywords": [
+        "0EC7AF:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations\\Furniture\\SquatEating"
+      ],
+      "Role": "Furniture"
+    },
+    {
+      "BehaviorGraph": "Actors\\Shared\\Behaviors\\AmbushBehavior.hkx",
+      "TargetKeywords": [
+        "0EECF2:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations\\Ambush\\FromHoleAbove"
+      ],
+      "Role": "Furniture"
+    },
+    {
+      "BehaviorGraph": "Actors\\Character\\Behaviors\\FurnitureNoMirrorBehavior.hkx",
+      "TargetKeywords": [
+        "0EF228:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations\\Furniture\\SquatEatingOnTable"
+      ],
+      "Role": "Furniture"
+    },
+    {
+      "BehaviorGraph": "Actors\\Character\\Behaviors\\FurnitureNoMirrorBehavior.hkx",
+      "TargetKeywords": [
+        "0F0102:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations\\Furniture\\SitOnFloorEating"
+      ],
+      "Role": "Furniture"
+    },
+    {
+      "BehaviorGraph": "Actors\\Shared\\Behaviors\\AmbushBehavior.hkx",
+      "TargetKeywords": [
+        "0F2546:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations\\Ambush\\FromHoleAboveQuicker"
+      ],
+      "Role": "Furniture"
+    },
+    {
+      "BehaviorGraph": "Actors\\Shared\\Behaviors\\AmbushBehavior.hkx",
+      "TargetKeywords": [
+        "0F3EB5:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations\\Ambush\\CrawlUpWall"
+      ],
+      "Role": "Furniture"
+    },
+    {
+      "BehaviorGraph": "Actors\\Character\\Behaviors\\FurnitureBehavior.hkx",
+      "TargetKeywords": [
+        "249E77:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations"
+      ],
+      "Role": "Idle"
+    },
+    {
+      "BehaviorGraph": "Actors\\Character\\Behaviors\\SingleAnimFurniture.hkx",
+      "TargetKeywords": [
+        "249E76:Fallout4.esm"
+      ],
+      "AnimationPaths": [
+        "Actors\\FeralGhoul\\Animations"
+      ],
+      "Role": "Idle"
+    }
+  ],
+  "IdleChatterTimeMin": 2.0,
+  "IdleChatterTimeMax": 8.0,
+  "MorphValuesLastIndex": 17,
+  "DialogueQuest": "09B207:Fallout4.esm",
+  "BoneData": {
+    "Male": [
+      {
+        "Name": "RArmUpperTwist2_skin",
+        "Values": [
+          1.0,
+          0.8101818,
+          0.8101878,
+          1.0,
+          1.4712344,
+          1.1337638,
+          1.0,
+          1.2960563,
+          1.2960572
+        ]
+      },
+      {
+        "Name": "Skull2_skin",
+        "Values": [
+          1.0,
+          0.66174704,
+          1.0000033,
+          1.0,
+          3.4566846,
+          2.0937715,
+          1.0,
+          0.98768854,
+          1.3612858
+        ]
+      },
+      {
+        "Name": "SpineRoot_skin",
+        "Values": [
+          1.0,
+          0.6193568,
+          0.9572257,
+          1.0,
+          1.1113079,
+          1.0814588,
+          1.0,
+          1.5626682,
+          1.1888244
+        ]
+      },
+      {
+        "Name": "LArmUpperTwist1_skin",
+        "Values": [
+          1.0,
+          0.75448537,
+          0.7544899,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.4564413,
+          1.4564424
+        ]
+      },
+      {
+        "Name": "RArmUpperTwist1_skin",
+        "Values": [
+          1.0,
+          0.8229164,
+          0.8229216,
+          1.0,
+          1.5345491,
+          1.2773525,
+          1.0,
+          1.2582711,
+          1.2582701
+        ]
+      },
+      {
+        "Name": "LArmUpperTwist2_skin",
+        "Values": [
+          1.0,
+          0.7987642,
+          0.7987694,
+          1.0,
+          0.80150217,
+          0.9999983,
+          1.0,
+          1.3182403,
+          1.3182397
+        ]
+      },
+      {
+        "Name": "RShoulder_skin",
+        "Values": [
+          1.0,
+          0.3390179,
+          0.3390204,
+          1.0,
+          1.2319447,
+          1.118764,
+          1.0,
+          1.0199852,
+          1.2674943
+        ]
+      },
+      {
+        "Name": "Skull1_skin",
+        "Values": [
+          1.0,
+          0.8484354,
+          0.8484409,
+          1.0,
+          0.5455544,
+          2.4107213,
+          1.0,
+          1.0000001,
+          0.5745063
+        ]
+      },
+      {
+        "Name": "Spine1_skin",
+        "Values": [
+          1.0,
+          0.5377341,
+          0.71874285,
+          1.0,
+          0.94773126,
+          0.8402637,
+          1.0,
+          1.5198998,
+          1.269889
+        ]
+      },
+      {
+        "Name": "Neck_skin",
+        "Values": [
+          1.0,
+          0.36675742,
+          0.77792096,
+          1.0,
+          1.3659539,
+          0.8548202,
+          1.0,
+          1.2419012,
+          1.4222169
+        ]
+      },
+      {
+        "Name": "LShoulder_skin",
+        "Values": [
+          1.0,
+          0.26070216,
+          0.2607041,
+          1.0,
+          1.0000001,
+          1.8375012,
+          1.0,
+          1.7726706,
+          1.7726707
+        ]
+      },
+      {
+        "Name": "Head_skin",
+        "Values": [
+          1.0,
+          0.99999976,
+          0.5132884,
+          1.0,
+          1.5727503,
+          1.9581766,
+          1.0,
+          0.36805442,
+          2.2714994
+        ]
+      },
+      {
+        "Name": "Spine2_skin",
+        "Values": [
+          1.0,
+          0.9457259,
+          0.97805375,
+          1.0,
+          1.2694476,
+          1.2308834,
+          1.0,
+          1.1321374,
+          1.1480935
+        ]
+      },
+      {
+        "Name": "Hunch_skin",
+        "Values": [
+          1.0,
+          0.35119593,
+          1.0000018,
+          1.0,
+          1.8165694,
+          1.8165692,
+          1.0,
+          1.4167213,
+          1.4167215
+        ]
+      }
+    ]
+  }
+}

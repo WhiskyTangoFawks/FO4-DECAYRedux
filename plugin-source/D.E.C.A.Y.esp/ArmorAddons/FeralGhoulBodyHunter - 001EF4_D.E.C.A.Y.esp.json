@@ -1,0 +1,29 @@
+{
+  "FormKey": "001EF4:D.E.C.A.Y.esp",
+  "EditorID": "FeralGhoulBodyHunter",
+  "BodyTemplate": {
+    "FirstPersonFlags": [
+      "Body"
+    ]
+  },
+  "Race": "06B4EC:Fallout4.esm",
+  "Priority": {
+    "Male": 0,
+    "Female": 0
+  },
+  "WeightSliderEnabled": {
+    "Male": false,
+    "Female": false
+  },
+  "Unknown": 2,
+  "Unknown2": 23,
+  "WorldModel": {
+    "Male": {
+      "File": "Actors\\FeralGhoul\\CharacterAssets\\FeralGhoulBaseWithered.nif",
+      "Data": "0x0400000000000000000000000000000000000000",
+      "MaterialSwap": "001EF1:D.E.C.A.Y.esp"
+    }
+  },
+  "FootstepSound": "098180:Fallout4.esm",
+  "BoneData": {}
+}

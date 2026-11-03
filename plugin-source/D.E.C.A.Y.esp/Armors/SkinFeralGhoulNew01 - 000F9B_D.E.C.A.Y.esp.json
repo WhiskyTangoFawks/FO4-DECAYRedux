@@ -1,0 +1,21 @@
+{
+  "FormKey": "000F9B:D.E.C.A.Y.esp",
+  "EditorID": "SkinFeralGhoulNew01",
+  "BipedBodyTemplate": {
+    "FirstPersonFlags": [
+      "Body"
+    ]
+  },
+  "Race": "06B4EC:Fallout4.esm",
+  "Description": {
+    "TargetLanguage": "English",
+    "Value": ""
+  },
+  "Armatures": [
+    {
+      "AddonIndex": 0,
+      "ArmorAddon": "000F9A:D.E.C.A.Y.esp"
+    }
+  ],
+  "Unused": "0x000000"
+}

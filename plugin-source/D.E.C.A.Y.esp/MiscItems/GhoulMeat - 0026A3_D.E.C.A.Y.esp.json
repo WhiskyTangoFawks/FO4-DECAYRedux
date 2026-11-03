@@ -1,0 +1,30 @@
+{
+  "FormKey": "0026A3:D.E.C.A.Y.esp",
+  "VersionControl": 8446,
+  "EditorID": "GhoulMeat",
+  "ObjectBounds": {
+    "First": "-2, -4, -8",
+    "Second": "2, 4, 8"
+  },
+  "PreviewTransform": "248D5C:Fallout4.esm",
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Ghoul Meat"
+  },
+  "Model": {
+    "File": "SetDressing\\Skeletons\\GoreArmLower.nif",
+    "Data": "0x0400000000000000000000000000000000000000"
+  },
+  "Value": 15,
+  "Weight": 1.0,
+  "Components": [
+    {
+      "Component": "01FA98:Fallout4.esm",
+      "Count": 2
+    },
+    {
+      "Component": "05A0C7:Fallout4.esm",
+      "Count": 4
+    }
+  ]
+}

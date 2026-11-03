@@ -1,0 +1,25 @@
+{
+  "FormKey": "00269D:D.E.C.A.Y.esp",
+  "VersionControl": 8446,
+  "EditorID": "GhoulHead",
+  "ObjectBounds": {
+    "First": "-6, -9, -7",
+    "Second": "13, 9, 6"
+  },
+  "Name": {
+    "TargetLanguage": "English",
+    "Value": "Ghoul Head"
+  },
+  "Model": {
+    "File": "Gore\\GoreHumanHead01.nif",
+    "Data": "0x0400000000000000000000000000000000000000"
+  },
+  "Value": 25,
+  "Weight": 5.0,
+  "Components": [
+    {
+      "Component": "01FA98:Fallout4.esm",
+      "Count": 3
+    }
+  ]
+}

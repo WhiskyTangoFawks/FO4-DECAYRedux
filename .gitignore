@@ -1,0 +1,8 @@
+*
+!/.gitignore
+!/.gitattributes
+!/build.json
+!/plugin-source/
+!/plugin-source/**
+!/DECAY\ Redux.manifest.json
+/D.E.C.A.Y\ -\ Main.ba2

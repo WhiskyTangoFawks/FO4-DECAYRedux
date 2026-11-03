@@ -1,0 +1,35 @@
+{
+  "FormKey": "000FA9:D.E.C.A.Y.esp",
+  "EditorID": "LvLHeadFeralGhoulNew",
+  "MaxCount": 0,
+  "Entries": [
+    {
+      "Data": {
+        "Level": 1,
+        "Reference": "000F9D:D.E.C.A.Y.esp",
+        "Count": 1
+      }
+    },
+    {
+      "Data": {
+        "Level": 1,
+        "Reference": "000FA3:D.E.C.A.Y.esp",
+        "Count": 1
+      }
+    },
+    {
+      "Data": {
+        "Level": 1,
+        "Reference": "000FA5:D.E.C.A.Y.esp",
+        "Count": 1
+      }
+    },
+    {
+      "Data": {
+        "Level": 1,
+        "Reference": "000FA7:D.E.C.A.Y.esp",
+        "Count": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "FormKey": "09B20B:Fallout4.esm",
+  "EditorID": "NPCFeralGhoulIdleGeneric",
+  "Version2": 4,
+  "Data": {
+    "MutagenObjectType": "SoundDescriptorStandardData",
+    "PercentFrequencyVariance": 6,
+    "Priority": 192,
+    "Variance": 2,
+    "StaticAttenuation": 2.0
+  },
+  "Category": "09F254:Fallout4.esm",
+  "SoundFiles": [
+    "data\\Sound\\FX\\NPC\\FeralGhoul\\NPC_FeralGhoul_Idle_Generic_03.wav",
+    "data\\Sound\\FX\\NPC\\FeralGhoul\\NPC_FeralGhoul_Idle_Generic_04.wav",
+    "data\\Sound\\FX\\NPC\\FeralGhoul\\NPC_FeralGhoul_Idle_Generic_01.wav",
+    "data\\Sound\\FX\\NPC\\FeralGhoul\\NPC_FeralGhoul_Idle_Generic_02.wav"
+  ],
+  "OutputModel": "05A28A:Fallout4.esm",
+  "LoopAndRumble": {}
+}

@@ -1,0 +1,95 @@
+{
+  "FormKey": "0758AE:Fallout4.esm",
+  "EditorID": "LCharFeralGhoul",
+  "Version2": 9,
+  "Flags": [
+    "CalculateFromAllLevelsLessThanOrEqualPlayer",
+    "CalculateForEachItemInCount"
+  ],
+  "Entries": [
+    {
+      "Data": {
+        "Level": 1,
+        "Reference": "0758AD:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Data": {
+        "Level": 1,
+        "Reference": "0758AD:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Data": {
+        "Level": 1,
+        "Reference": "0758AD:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Data": {
+        "Level": 9,
+        "Reference": "11669D:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Data": {
+        "Level": 15,
+        "Reference": "165790:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Data": {
+        "Level": 15,
+        "Reference": "000F9E:D.E.C.A.Y.esp",
+        "Count": 1
+      }
+    },
+    {
+      "Data": {
+        "Level": 22,
+        "Reference": "07ED09:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Data": {
+        "Level": 32,
+        "Reference": "07ED08:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Data": {
+        "Level": 35,
+        "Reference": "001F00:D.E.C.A.Y.esp",
+        "Count": 1
+      }
+    },
+    {
+      "Data": {
+        "Level": 42,
+        "Reference": "11669E:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Data": {
+        "Level": 52,
+        "Reference": "07ED07:Fallout4.esm",
+        "Count": 1
+      }
+    },
+    {
+      "Data": {
+        "Level": 62,
+        "Reference": "1166A0:Fallout4.esm",
+        "Count": 1
+      }
+    }
+  ]
+}

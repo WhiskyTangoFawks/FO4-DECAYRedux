@@ -1,0 +1,15 @@
+{
+  "FormKey": "001EF1:D.E.C.A.Y.esp",
+  "EditorID": "FeralGhoulSkinHunter",
+  "TreeFolder": "actors",
+  "Substitutions": [
+    {
+      "OriginalMaterial": "actors\\feralghoul\\feralghoulbody1.bgsm",
+      "ReplacementMaterial": "DECAY\\newghoul01hunterbody.bgsm"
+    },
+    {
+      "OriginalMaterial": "actors\\feralghoul\\feralghoulhead1.bgsm",
+      "ReplacementMaterial": "DECAY\\feralghoulhunterhead.bgsm"
+    }
+  ]
+}

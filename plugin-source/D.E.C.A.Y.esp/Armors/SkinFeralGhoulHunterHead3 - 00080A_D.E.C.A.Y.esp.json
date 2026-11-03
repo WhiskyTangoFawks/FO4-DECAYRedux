@@ -1,5 +1,5 @@
 {
-  "FormKey": "001EFC:D.E.C.A.Y.esp",
+  "FormKey": "00080A:D.E.C.A.Y.esp",
   "MajorRecordFlagsRaw": 4,
   "EditorID": "SkinFeralGhoulHunterHead3",
   "Fallout4MajorRecordFlags": [
@@ -18,7 +18,7 @@
   "Armatures": [
     {
       "AddonIndex": 0,
-      "ArmorAddon": "001EF7:D.E.C.A.Y.esp"
+      "ArmorAddon": "000805:D.E.C.A.Y.esp"
     }
   ],
   "Unused": "0x000000",

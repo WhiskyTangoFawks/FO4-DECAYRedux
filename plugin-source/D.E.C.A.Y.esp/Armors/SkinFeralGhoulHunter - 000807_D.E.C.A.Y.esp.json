@@ -1,5 +1,5 @@
 {
-  "FormKey": "001EF9:D.E.C.A.Y.esp",
+  "FormKey": "000807:D.E.C.A.Y.esp",
   "EditorID": "SkinFeralGhoulHunter",
   "BipedBodyTemplate": {
     "FirstPersonFlags": [
@@ -14,7 +14,7 @@
   "Armatures": [
     {
       "AddonIndex": 0,
-      "ArmorAddon": "001F01:D.E.C.A.Y.esp"
+      "ArmorAddon": "00080F:D.E.C.A.Y.esp"
     }
   ],
   "Unused": "0x000000"

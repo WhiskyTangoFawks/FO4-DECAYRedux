@@ -1,5 +1,5 @@
 {
-  "FormKey": "001F00:D.E.C.A.Y.esp",
+  "FormKey": "00080E:D.E.C.A.Y.esp",
   "IsCompressed": true,
   "MajorRecordFlagsRaw": 262144,
   "EditorID": "encFeralGhoulHunter",
@@ -109,7 +109,7 @@
     }
   ],
   "SoundsFinalize": "0x00",
-  "DefaultOutfit": "001EFF:D.E.C.A.Y.esp",
+  "DefaultOutfit": "00080D:D.E.C.A.Y.esp",
   "DefaultPackageList": "022B33:Fallout4.esm",
   "TextureLighting": "#808080",
   "MajorFlags": [

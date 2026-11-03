@@ -1,5 +1,5 @@
 {
-  "FormKey": "001EFE:D.E.C.A.Y.esp",
+  "FormKey": "00080C:D.E.C.A.Y.esp",
   "EditorID": "LvLFeralGhoulHunterHeads",
   "MaxCount": 0,
   "Flags": [
@@ -10,28 +10,28 @@
     {
       "Data": {
         "Level": 1,
-        "Reference": "001EFD:D.E.C.A.Y.esp",
+        "Reference": "000808:D.E.C.A.Y.esp",
         "Count": 1
       }
     },
     {
       "Data": {
         "Level": 1,
-        "Reference": "001EFC:D.E.C.A.Y.esp",
+        "Reference": "000809:D.E.C.A.Y.esp",
         "Count": 1
       }
     },
     {
       "Data": {
         "Level": 1,
-        "Reference": "001EFB:D.E.C.A.Y.esp",
+        "Reference": "00080A:D.E.C.A.Y.esp",
         "Count": 1
       }
     },
     {
       "Data": {
         "Level": 1,
-        "Reference": "001EFA:D.E.C.A.Y.esp",
+        "Reference": "00080B:D.E.C.A.Y.esp",
         "Count": 1
       }
     }

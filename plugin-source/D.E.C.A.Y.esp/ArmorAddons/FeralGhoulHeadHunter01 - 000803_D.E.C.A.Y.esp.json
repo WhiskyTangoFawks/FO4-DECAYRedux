@@ -1,6 +1,6 @@
 {
-  "FormKey": "001EF7:D.E.C.A.Y.esp",
-  "EditorID": "FeralGhoulHeadHunter03",
+  "FormKey": "000803:D.E.C.A.Y.esp",
+  "EditorID": "FeralGhoulHeadHunter01",
   "BodyTemplate": {
     "FirstPersonFlags": [
       "FaceGenHead"
@@ -19,14 +19,14 @@
   "Unknown2": 23,
   "WorldModel": {
     "Male": {
-      "File": "Actors\\FeralGhoul\\CharacterAssets\\FeralGhoulHead3.nif",
+      "File": "Actors\\FeralGhoul\\CharacterAssets\\FeralGhoulHead1.nif",
       "Data": "0x0400000000000000000000000000000000000000",
-      "MaterialSwap": "001EF1:D.E.C.A.Y.esp"
+      "MaterialSwap": "000800:D.E.C.A.Y.esp"
     },
     "Female": {
-      "File": "Actors\\FeralGhoul\\CharacterAssets\\FeralGhoulHead3.nif",
+      "File": "Actors\\FeralGhoul\\CharacterAssets\\FeralGhoulHead1.nif",
       "Data": "0x0400000000000000000000000000000000000000",
-      "MaterialSwap": "001EF1:D.E.C.A.Y.esp"
+      "MaterialSwap": "000800:D.E.C.A.Y.esp"
     }
   },
   "FootstepSound": "03E091:Fallout4.esm",

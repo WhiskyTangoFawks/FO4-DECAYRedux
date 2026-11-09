@@ -1,9 +1,3 @@
 {
-"version":1,
-"packages":[
-{"kind":"installationFile","name":"DECAY Redux-59025-1-1647945087.7z","packageVersion":"1.0.0.0","size":2867711,"hash":"cjko42XqOlc=","host":{"nexus":{"game":"fallout4","mod":59025,"file":232647}}}
-],
-"files":{
-"D.E.C.A.Y - Main.ba2":"leLU8hcymYA="
-}
+"version":1
 }
